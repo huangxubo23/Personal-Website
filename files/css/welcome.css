@@ -110,6 +110,8 @@ html {
 .home .home_photo {
     width: .5rem;
     height: .5rem;
+    min-width: 60px;
+    min-height: 60px;
     border-radius: 50%;
     margin: .05rem auto;
 }
@@ -128,10 +130,11 @@ html {
 
 .center_container {
     position: absolute;
-    top: .5rem;
-    width: 6rem;
+    top: 50%;
     left: 50%;
-    margin-left: -3rem;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform-origin: translate(-50%, -50%);
     text-align: center;
 }
 
