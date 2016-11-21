@@ -1,8 +1,3 @@
-var isMobile = false;
-if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) { 
-    isMobile = true;
-}
-
 var _defaultWidth = $(window).width(),
     _defaultHeight = $(window).height();
 
