@@ -120,7 +120,7 @@ html {
     text-align: center;
     color: #fff;
     padding: .03rem 0;
-    font-size: .05rem;
+    font-size: .06rem;
 }
 
 .home .home_detail em {
@@ -366,8 +366,11 @@ html {
 }
 
 @media (max-width: 860px){
-      .iphone {
+    .iphone {
        top: 80%;
+    }
+    .home .home_detail {
+        font-size: .1rem;
     }
 }
  @media (max-width: 480px) {
@@ -498,7 +501,9 @@ html {
         background-size: 200%;
         zoom: 0.5;
     }
-
+    .home .home_detail {
+        font-size: .16rem;
+    }
  }
 
 
