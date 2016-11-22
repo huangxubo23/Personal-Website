@@ -1,7 +1,7 @@
 ## Introduction
 This is a single page application website for front-end developer.
 
-### Installation
+### Installation
 Use `npm` to install the packages:
 ```
 npm install
